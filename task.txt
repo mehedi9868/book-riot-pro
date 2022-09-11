@@ -1,0 +1,14 @@
+1. project riot ==> version mehedi
+
+2. grid laylout (must)
+
+3. format ==> html , css , comment (pro level)
+
+4. ver mehedi ==> try to make it responsive
+	@media (){}; 
+
+opitonal ==> three dot menu or hamberger menu (youtube search)
+
+5. similar type another project
+
+=============== task ===========

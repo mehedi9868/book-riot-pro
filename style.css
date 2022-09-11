@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(IMG/background.jpg);
+    background-size: cover;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+/* nav start */
+.logo {
+    width: 100px;
+}
+
+.nav ul {
+    display: flex;
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 55px;
+
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+}
+
+.nav ul li:hover a {
+    color: rgb(192, 191, 191);
+    transition: .8s;
+}
+
+.subscribe-btn {
+    width: 100px;
+}
+
+/* nav end */
+
+/* main section  */
+.main-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-box {
+    width: 50%;
+}
+
+h2 {
+    color: rgb(54, 45, 45);
+    margin-bottom: 50px;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+}
+
+/* login box  */
+
+.loginbox {
+    width: 20%;
+    background: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/* form  */
+
+.login label {
+    color: #08ffd1;
+    font-size: 16px;
+}
+
+.input {
+    width: 250px;
+    height: 150px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.child {
+    width: 280px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.submit-btn button {
+    border-radius: 5px;
+}
+
+.submit-btn button:hover {
+    background-color: #08ffd1;
+    transition: 0.8s;
+}
+
+.submit-btn button a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.login span a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+.login span:hover a {
+    color: gray;
+    transition: 0.5s;
+}
+
+.icon-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    padding: 30px 10px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* =============== END ==================== */
